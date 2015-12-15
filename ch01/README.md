@@ -67,7 +67,25 @@ std::cout << "The sum of " << v1;   # 多余的分号
       << " is " << v1 + v2 << std::endl;    
 ```
 
+## 练习1.7
+在vs2015下编译这段代码：
+```cpp
+/*
+ * 注释对 /* */ 不能嵌套。
+ * “不能嵌套” 几个字会被认为是源码，
+ * 像剩余程序一样处理
+ */
+int main()
+{
+  return 0;
+}
+```
+结果如下：
+![此处输入图片的描述][5]
+
+
   [1]: https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-2-windows.png
   [2]: https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-2-linux.png
   [3]: http://www.jb51.net/article/73377.htm
   [4]: https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-4-output.png
+  [5]: https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-7-error-msg.png
