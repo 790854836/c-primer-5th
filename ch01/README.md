@@ -1,6 +1,40 @@
-# C++ Primer 第5版 习题 
+# 第1章 开始
 
-个人解答记录
+## 练习1.1
+略
+## 练习1.2
+### Windows
+![此处输入图片的描述][1]
+### Linux
+![此处输入图片的描述][2]
+linux下返回值变成了无符号值
+[参考资料][3]
+## 练习1.3
 
-## 参考资料：
-https://github.com/pezy/CppPrimer
+    #include <iostream>
+    
+    int main()
+    {
+        std::cout << "Hello, World" << std::endl;
+        return 0;
+    }
+## 练习1-4
+
+    #include <iostream>
+    
+    int main()
+    {
+        std::cout << "Enter two numbers:" << std::endl;
+        int v1 = 0, v2 = 0;
+        std::cin >> v1 >> v2;
+        std::cout << "The product of " << v1 << " and " << v2
+            << " is " << v1 * v2 << std::endl;
+        return 0;
+    }
+![此处输入图片的描述][4]
+
+
+  [1]: https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-2-windows.png
+  [2]: https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-2-linux.png
+  [3]: http://www.jb51.net/article/73377.htm
+  [4]: https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-4-output.png
