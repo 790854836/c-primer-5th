@@ -53,8 +53,8 @@ linux下返回值变成了无符号值
     }
 ## 练习1.6
 
-    std::cout << "The sum of " << v1;   #多余的分号
-          << " and " << v2;   #多余的分号
+    std::cout << "The sum of " << v1;   # 多余的分号
+          << " and " << v2;   # 多余的分号
           << " is " << v1 + v2 << std::endl;    
 
   [1]: https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-2-windows.png
