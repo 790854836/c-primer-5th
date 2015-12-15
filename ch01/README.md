@@ -11,14 +11,15 @@
 linux下返回值变成了无符号值
 [参考资料][3]
 ## 练习1.3
-
-    #include <iostream>
+```cpp
+#include <iostream>
     
-    int main()
-    {
-        std::cout << "Hello, World" << std::endl;
+int main()
+{
+    std::cout << "Hello, World" << std::endl;
         return 0;
-    }
+}
+```
 ## 练习1.4
 
     #include <iostream>
