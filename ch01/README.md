@@ -62,8 +62,8 @@ int main()
 
 ## 练习1.6
 ```cpp
-std::cout << "The sum of " << v1;   # 多余的分号
-      << " and " << v2;   # 多余的分号
+std::cout << "The sum of " << v1;   // 多余的分号
+      << " and " << v2;   // 多余的分号
       << " is " << v1 + v2 << std::endl;    
 ```
 
@@ -80,8 +80,35 @@ int main()
   return 0;
 }
 ```
-结果如下：
+结果
 ![此处输入图片的描述][5]
+
+## 练习1.8
+```cpp
+#include <iostream>
+
+int main()
+{
+  std::cout << "/*";  // 合法
+  std::cout << "*/";  // 合法
+  std::cout << /* "*/" */;  // 不合法，缺少右引号
+  std::cout << /* "*/" /* "/*" */;  // 合法
+}
+```
+修改后：
+```cpp
+#include <iostream>
+
+int main()
+{
+  std::cout << "/*";
+  std::cout << "*/";
+  std::cout << /* "*/" */"; // 最后面加入一个引号
+  std::cout << /* "*/" /* "/*" */;
+}
+```
+输出结果
+![此处输入图片的描述][6]
 
 
   [1]: https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-2-windows.png
@@ -89,3 +116,4 @@ int main()
   [3]: http://www.jb51.net/article/73377.htm
   [4]: https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-4-output.png
   [5]: https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-7-error-msg.png
+  [6]: https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-8-output.png
