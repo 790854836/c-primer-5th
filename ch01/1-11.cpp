@@ -1,9 +1,9 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 int main()
 {
 	int start = 0, end = 0;
-	std::cout << "ÇëÊäÈëÁ½¸öÕûÊı£º";
+	std::cout << "è¯·è¾“å…¥ä¸¤ä¸ªæ•´æ•°ï¼š";
 	std::cin >> start >> end;
 	int val = start;
 	while (val < end) {

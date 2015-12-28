@@ -114,14 +114,17 @@ int main()
 
 ##[Exercise 1.9](1-9.cpp)
 output
+
 ![1-9](https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-9-output.png)
 
 ##[Exercise 1.10](1-10.cpp)
 output
+
 ![1-10](https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-10-output.png)
 
 ##[Exercise 1.11](1-11.cpp)
 output
+
 ![1-11](https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-11-output.png)
 
 
