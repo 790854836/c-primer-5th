@@ -80,8 +80,7 @@ int main()
   return 0;
 }
 ```
-结果
-
+结果  
 ![此处输入图片的描述][5]
 
 ## 练习1.8
@@ -113,23 +112,20 @@ int main()
 ![此处输入图片的描述][6]
 
 ##[练习 1.9](1-9.cpp)
-output
-
+output:  
 ![1-9](https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-9-output.png)
 
 ##[练习 1.10](1-10.cpp)
-output
-
+output:  
 ![1-10](https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-10-output.png)
 
 ##[练习 1.11](1-11.cpp)
-output
-
+output:  
 ![1-11](https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-11-output.png)
 
 ##[练习 1.12](1-12.cpp)
-完成了-100到100的整数和，sum结果为0  
-output  
+`完成了-100到100的整数和，sum结果为0`
+output:  
 ![1-12](https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-12-output.png)
 
 
