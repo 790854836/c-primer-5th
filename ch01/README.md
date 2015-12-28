@@ -112,6 +112,20 @@ int main()
 
 ![此处输入图片的描述][6]
 
+##[Exercise 1.9](1-9.cpp)
+output
+![1-9](https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-9-output.png)
+
+##[Exercise 1.10](1-10.cpp)
+output
+![1-10](https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-10-output.png)
+
+##[Exercise 1.11](1-11.cpp)
+output
+![1-11](https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-11-output.png)
+
+
+
 
   [1]: https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-2-windows.png
   [2]: https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-2-linux.png
