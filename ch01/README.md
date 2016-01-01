@@ -168,8 +168,26 @@ output:
 ![output](https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-19-output.png)
 
 ## [练习1.20](1-20)
+output:
+![output](https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-20-output.png)
 
+## [练习1.21](1-21)
+output:
+![output](https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-21-output.png)
 
+## [练习1.22](1-22)
+output:
+![output](https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-22-output.png)
+
+## [练习1.23](1-23)
+output:
+![output](https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-23-output.png)
+
+## [练习1.24]
+见练习1-23的output
+
+## [练习1.25]
+见练习1-22的output
 
 
   [1]: https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-2-windows.png
