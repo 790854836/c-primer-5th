@@ -125,8 +125,49 @@ output:
 
 ##[练习 1.12](1-12.cpp)
 > 完成了-100到100的整数和，sum结果为0
+
 output:  
 ![1-12](https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-12-output.png)
+
+## 练习1.13
+[重写1.9](1-13-1.cpp)
+
+[重写1.10](1-13-2.cpp)
+
+[重写1.11](1-13-3.cpp)
+
+## 练习1.14
+（等体会深入再补充）感觉使用原则应该是尽其所能
+
+for语句有三个部分，用在固定步长增长的迭代中比较好
+
+while在没有明显知道次数，非固定步长增长的循环中比较好
+
+***
+参考：
+* [stackoverflow上的解释](http://stackoverflow.com/questions/2950931/for-vs-while-in-c-programming)
+* [for 和 while 在 C/C++ 中分别使用在什么场景较好？](https://www.zhihu.com/question/25101246)
+
+## 练习1-15
+略
+
+## [练习1.16](1-16.cpp)
+
+## 练习1.17
+见练习1.18的结果
+
+## 练习1.18
+输入全部相等的值：  
+![相等](https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-18-repeat-output.png)
+
+输入全部不相等的值：  
+![不相等](https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-18-no-repeat-output.png)
+
+## [练习1.19](1-19.cpp)
+output:  
+![output](https://raw.githubusercontent.com/790854836/cpp-primer-5th/master/img/ch01/1-19-output.png)
+
+## [练习1.20](1-20)
 
 
 
